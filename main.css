@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+.box>img{
+    width: 10%;
+    height: 100%;
+    border: 2px solid white;
+    transition: all 0.4s;
+    border-radius: 50px;
+    filter: saturate(0%);
+    cursor: pointer;
+
+}
+.box>img:hover{
+    filter: saturate(100%);
+    width: 100%;
+    border-radius: 100%;
+    
+
+}
